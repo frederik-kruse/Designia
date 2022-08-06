@@ -1,0 +1,59 @@
+@import "../../Variables/variables.scss";
+
+footer {
+  background-color: $Raisin-black;
+  width: 100%;
+  height: auto;
+  padding: 4em;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .Footer_heading {
+    font-size: 3em;
+  }
+
+  .Footer_underHeading {
+    margin: 1em 0vh;
+  }
+
+  .Footer_iconFlex {
+    display: flex;
+    margin: 1em;
+  }
+
+  .Icon {
+    color: $Microsoft-red;
+    font-size: 2em;
+    margin-right: 0.5em;
+  }
+
+  .Footer_info {
+    width: 50%;
+    height: 80%;
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .Footer_kontaktFormular {
+    width: 50%;
+    height: auto;
+    padding: 2em 3em;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: $Dark-charcoal;
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      padding: 2em 2em;
+    }
+  }
+}

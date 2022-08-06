@@ -1,0 +1,49 @@
+@import "../../Variables/variables.scss";
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: $Raisin-black;
+
+  .HeaderLogo {
+    width: 20ch;
+    height: 5ch;
+    margin: 3ch;
+    position: absolute;
+
+    @media screen and (max-width: 530px) {
+      margin: 2ch 0ch;
+    }
+  }
+
+  .Header_Menu {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    .MenuLinks {
+      color: $Microsoft-red;
+      margin: 4.5ch 2ch 0ch;
+      transition: 0.3s;
+
+      &:hover {
+        color: $white;
+        transition: 0.3s;
+      }
+
+      @media screen and (max-width: 530px) {
+        margin: 9ch 1.8ch 0ch;
+      }
+    }
+
+    @media screen and (max-width: 530px) {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+  }
+}

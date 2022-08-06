@@ -1,0 +1,14 @@
+.Render {
+  background-color: #303030;
+}
+
+.Render_IMG {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .Render_IMG {
+    height: auto;
+  }
+}

@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #222222;
+}
+header .HeaderLogo {
+  width: 20ch;
+  height: 5ch;
+  margin: 3ch;
+  position: absolute;
+}
+@media screen and (max-width: 530px) {
+  header .HeaderLogo {
+    margin: 2ch 0ch;
+  }
+}
+header .Header_Menu {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+header .Header_Menu .MenuLinks {
+  color: #f2511c;
+  margin: 4.5ch 2ch 0ch;
+  transition: 0.3s;
+}
+header .Header_Menu .MenuLinks:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+@media screen and (max-width: 530px) {
+  header .Header_Menu .MenuLinks {
+    margin: 9ch 1.8ch 0ch;
+  }
+}
+@media screen and (max-width: 530px) {
+  header .Header_Menu {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  header {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+  }
+}

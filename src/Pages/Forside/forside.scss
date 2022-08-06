@@ -1,0 +1,18 @@
+@import "../../Variables/variables.scss";
+
+.Forside {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.Render_tekst_flex {
+  height: auto;
+  display: flex;
+  margin: auto;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
+}

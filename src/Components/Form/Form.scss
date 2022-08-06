@@ -1,0 +1,60 @@
+@import "../../Variables/variables.scss";
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: $error;
+}
+
+.form-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 3em;
+  width: 100%;
+  border: solid $white 1px;
+  background-color: $Dark-charcoal;
+  margin-top: 2em;
+  color: $white;
+}
+
+.form-textarea {
+  resize: none;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 15em;
+  width: 100%;
+  border: solid $white 1px;
+  background-color: $Dark-charcoal;
+  padding: 1em;
+  color: $white;
+  margin-top: 2em;
+}
+
+.form-input-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #3e3e3e;
+  font-size: 1rem;
+  color: $white;
+  margin-top: 2em;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $Microsoft-red;
+    transition: 0.3s;
+  }
+
+  .BeskedIcon {
+    color: $white;
+    font-size: 2rem;
+    position: absolute;
+    transform: translateX(-120%);
+    margin: -0.4ch 0%;
+  }
+}

@@ -1,0 +1,39 @@
+.PNF_siteColour {
+  width: 100%;
+  height: 100%;
+  background-color: #303030;
+}
+
+.PNF_flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PNF_flex .PNF_img {
+  width: 15%;
+  height: 15%;
+  margin: 2em;
+}
+.PNF_flex .PNF_link {
+  color: #f2511c;
+}
+
+.PageNotFoundHeading {
+  text-align: center;
+  font-size: 3.5ch;
+  padding: 1vh;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.Logo_404 {
+  width: 15em;
+}
+
+.Footer_position_PNF {
+  width: 100%;
+  height: 31vh;
+}
